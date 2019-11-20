@@ -8,3 +8,4 @@ jobs:
       - uses: actions/checkout@v1.1.0
       - uses: jaid/action-npm-install@master
       - uses: jaid/action-jest@master
+      - uses: jaid/action-node-boilerplate
