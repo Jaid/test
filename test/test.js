@@ -8,6 +8,5 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: test} = indexModule
 
 it("should run", () => {
-  const result = test()
-  expect(result).toBeGreaterThan(1549410770)
+  expect(test()).toBe(2)
 })
