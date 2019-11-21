@@ -9,3 +9,5 @@ jobs:
       - uses: jaid/action-npm-install@master
       - uses: jaid/action-jest@master
       - uses: jaid/action-node-boilerplate@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
