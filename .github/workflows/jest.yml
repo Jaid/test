@@ -11,3 +11,4 @@ jobs:
       - uses: jaid/action-node-boilerplate@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          push: "true"
