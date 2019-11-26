@@ -1,4 +1,4 @@
-name: Jest
+name: Validate and autofix
 on: push
 jobs:
   build:
