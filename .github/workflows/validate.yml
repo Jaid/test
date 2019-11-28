@@ -22,3 +22,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fix: "true"
           approve: "true"
+          dry: "true"
