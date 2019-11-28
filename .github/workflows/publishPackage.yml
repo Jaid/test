@@ -25,4 +25,4 @@ jobs:
           publishDirectory: dist/package/production
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           npmToken: ${{ secrets.npmToken }}
-          dry: "false"
+          dry: "true"
