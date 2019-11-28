@@ -24,4 +24,5 @@ jobs:
           npmPrepareScript: build:prod
           publishDirectory: dist/package/production
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          npmToken: ${{ secrets.npmToken }}
           dry: "true"
