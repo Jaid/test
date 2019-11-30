@@ -10,3 +10,10 @@ npm install --global test
 yarn global add test
 ```
 
+### Example
+```javascript
+import test from "test"
+
+// Call it
+test()
+```
