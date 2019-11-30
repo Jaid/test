@@ -1,18 +1,18 @@
-## Test
+# Test
 
 A sandbox repository for experimenting.
 
-### Installation
-##### <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png" height=16/>
+## Installation
+<a href='https://npmjs.com/package/undefined'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
 ```bash
 npm install --global test
 ```
-##### <img src="https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png" height=24/>
+<a href='https://yarnpkg.com/package/undefined'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
 ```bash
 yarn global add test
 ```
 
-### Example
+## Example
 ```javascript
 import test from "test"
 
