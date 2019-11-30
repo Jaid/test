@@ -1,5 +1,7 @@
 {
   "private": true,
+  "name": "test",
+  "title": "Test",
   "webpackConfigJaid": "universalLib",
   "version": "0.1.27",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
