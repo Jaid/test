@@ -1,5 +1,7 @@
 ## Test
 
+A sandbox repository for experimenting.
+
 ### Installation
 ##### <img src="https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png" height=16/>
 ```bash
