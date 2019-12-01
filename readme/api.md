@@ -1,5 +1,5 @@
 [command]npx jsdoc-to-markdown --files src/** --example-lang javascript
-npx: installed 100 in 4.084s
+npx: installed 100 in 3.951s
 <a name="module_test"></a>
 
 ## test
