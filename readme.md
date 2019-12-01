@@ -15,13 +15,7 @@ yarn add test
 
 
 ## API Reference
-<a name="module_test"></a>
-
-## test
-<a name="exp_module_test--module.exports"></a>
-
-### module.exports(firstNumber, [secondNumber]) ⇒ <code>number</code> ⏏
-Adds second argument to first argument
+[object Module][object Module]Adds second argument to first argument
 
 **Kind**: Exported function  
 **Returns**: <code>number</code> - The sum of both arguments  
