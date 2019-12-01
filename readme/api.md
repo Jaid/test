@@ -1,27 +1,3 @@
-# Test
-
-
-A sandbox repository for experimenting.
-
-## Installation
-<a href='https://npmjs.com/package/test'><img alt='npm logo' src='https://raw.githubusercontent.com/npm/logos/master/npm%20logo/npm-logo-red.png' height=16/></a>
-```bash
-npm install --save test
-```
-<a href='https://yarnpkg.com/package/test'><img alt='Yarn logo' src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' height=24/></a>
-```bash
-yarn add test
-```
-
-## Example
-```javascript
-import test from "test"
-
-// Call it
-test()
-```
-
-## API Reference
 [command]npx jsdoc-to-markdown --files src/** --example-lang javascript
 npx: installed 100 in 4.084s
 <a name="module_test"></a>
@@ -55,4 +31,3 @@ const number = 5
 const result = test(number)
 result === 6
 ```
-
