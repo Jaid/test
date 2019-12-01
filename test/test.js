@@ -8,5 +8,5 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: test} = indexModule
 
 it("should run", () => {
-  expect(test()).toBe(2)
+  expect(test(5)).toBe(6)
 })
