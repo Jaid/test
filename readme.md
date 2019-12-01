@@ -13,13 +13,6 @@ npm install --save test
 yarn add test
 ```
 
-## Example
-```javascript
-import test from "test"
-
-// Call it
-test()
-```
 
 ## API Reference
 <a name="module_test"></a>
