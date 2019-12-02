@@ -32,5 +32,6 @@
     "test:debug": "DEBUG=\"$DEBUG,$(basename $PWD),$(basename $PWD):*\" NODE_ENV=test node --inspect=9229 node_modules/jest/bin/jest.js --runInBand",
     "randomCommit": "git pull && echo $(date-now) >> changefile.txt && npx git-flush-cli 'Random commit for triggered GitHub Actions'",
     "prepareActionJest": "npm run build:prod"
-  }
+  },
+  "description": "A sandbox repository for experimenting."
 }
