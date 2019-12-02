@@ -24,6 +24,11 @@ scriptElement.setAttribute("src","https://unpkg.com/test@0.1.27");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
+The module is now loaded in a variable.
+
+```javascript
+typeof test.default
+```
 
 ## Documentation
 Adds second argument to first argument
