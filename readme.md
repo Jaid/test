@@ -14,7 +14,18 @@ yarn add test
 ```
 
 
-## API Reference
+## Try it out
+Open a browser's JavaScript console and execute:
+
+```javascript
+const scriptElement = document.createElement("script");
+scriptElement.setAttribute("type","text/javascript");
+scriptElement.setAttribute("src","https://unpkg.com/test@0.1.27");
+document.querySelector("head").appendChild(scriptElement);
+```
+
+
+## Documentation
 Adds second argument to first argument
 
 **Kind**: Exported function  
