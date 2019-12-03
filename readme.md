@@ -24,7 +24,7 @@ scriptElement.setAttribute("src","https://unpkg.com/test@0.1.27");
 document.querySelector("head").appendChild(scriptElement);
 ```
 
-The module is now loaded in a variable.
+This module is now loaded in a variable that can be accessed in any scope.
 
 ```javascript
 typeof test.default
