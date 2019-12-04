@@ -14,8 +14,8 @@ yarn add test@^0.1.27
 ```
 
 
-<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png' height='24'/>
 ## Try it out
+<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png' height='24'/>
 Open a browser's JavaScript console and execute:
 
 ```javascript
