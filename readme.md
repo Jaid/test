@@ -8,6 +8,7 @@ A sandbox repository for experimenting.
 ```bash
 npm install --save test@^0.1.27
 ```
+<hr/>
 <a href='https://yarnpkg.com/package/test'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
 ```bash
 yarn add test@^0.1.27
