@@ -39,5 +39,7 @@
     "type": "git",
     "url": "https://github.com/jaid/test"
   },
-  "homepage": "https://github.com/Jaid/testa"
+  "homepage": [
+    "testing"
+  ]
 }
