@@ -15,3 +15,5 @@ jobs:
           node-version: "13.9.0"
 
       - uses: jaid/action-sync-node-meta@master
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
