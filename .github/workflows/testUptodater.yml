@@ -1,4 +1,4 @@
-name: Test Jaid/action-sync-node-meta
+name: Test Jaid/action-uptodater
 on:
   push:
     branches: [master]
@@ -13,4 +13,12 @@ jobs:
         with:
           node-version: "13.9.0"
 
-      - uses: jaid/action-sync-node-meta@master
+      - name: npm install
+        uses: jaid/action-npm-install@master
+
+      - name: Uptodater
+        uses: jaid/action-uptodater@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fix: "true"
+          approve: "true"

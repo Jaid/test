@@ -1,4 +1,4 @@
-name: Validate and autofix
+name: Test Jaid/action-jest
 on:
   push:
     branches: [master]
@@ -12,15 +12,9 @@ jobs:
         uses: actions/setup-node@v1.4.1
         with:
           node-version: "13.9.0"
+
       - name: npm install
         uses: jaid/action-npm-install@master
+
       - name: Jest
         uses: jaid/action-jest@master
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
-      - name: Uptodater
-        uses: jaid/action-uptodater@master
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fix: "true"
-          approve: "true"
