@@ -33,11 +33,11 @@
     "randomCommit": "git pull && echo $(date-now) >> changefile.txt && git-flush-cli 'Random commit for triggering GitHub Actions'",
     "prepareActionJest": "npm run build:prod"
   },
-  "description": "A sandbox repository for experimenting. ab",
+  "description": "A sandbox repository for experimenting. a",
   "funding": "https://github.com/sponsors/jaid",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaid/test"
   },
-  "homepage": "https://github.com/Jaid/test"
+  "homepage": "https://github.com/Jaid/testa"
 }
