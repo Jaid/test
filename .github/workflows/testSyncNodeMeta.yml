@@ -17,3 +17,4 @@ jobs:
       - uses: jaid/action-sync-node-meta@master
         with:
           githubToken: ${{ secrets.forTestRepositoryRepoScope }}
+          direction: overwrite-github

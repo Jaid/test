@@ -42,6 +42,7 @@
   "homepage": "https://github.com/Jaid/test",
   "keywords": [
     "debug",
-    "testing"
+    "testing",
+    "test"
   ]
 }
