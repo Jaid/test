@@ -17,4 +17,3 @@ jobs:
       - uses: jaid/action-sync-node-meta@master
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          syncDescription: "false"
