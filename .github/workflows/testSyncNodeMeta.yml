@@ -16,4 +16,6 @@ jobs:
 
       - uses: jaid/action-sync-node-meta@master
         with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          githubToken: ${{ secrets.forTestRepositoryRepoScope }}
+          direction: overwrite-github
+          syncHomepage: "false"
