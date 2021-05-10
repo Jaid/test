@@ -3,7 +3,7 @@
   "name": "test",
   "title": "Test",
   "webpackConfigJaid": "universalLib",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "devDependencies": {
     "acorn": "^7.1.1",
