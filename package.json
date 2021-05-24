@@ -30,7 +30,7 @@
     "randomCommit": "git pull && echo $(date-now) >> changefile.txt && git-flush-cli 'Random commit for triggering GitHub Actions'",
     "prepareActionJest": "npm run build:prod"
   },
-  "description": "A sandbox repository for experimenting.",
+  "description": "A sandbox repository for experimenting.b",
   "funding": "https://github.com/sponsors/jaid",
   "repository": {
     "type": "git",
