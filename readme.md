@@ -8,6 +8,10 @@
 **A sandbox repository for experimenting.**
 
 
+#### Pure ESM library
+
+:information_source: This package has only ESM exports. You should `import` it from MJS files or [read more here](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c).
+
 
 
 
@@ -25,12 +29,6 @@ npm install --save test@^0.2.4
 yarn add test@^0.2.4
 ```
 
-<a href="https://github.com/jaid/test/packages"><img src="https://img.shields.io/badge/GitHub Packages-@jaid/test-24282e?style=flat-square&logo=github" alt="@jaid/test on GitHub Packages"/></a>  
-(if [configured properly](https://help.github.com/en/github/managing-packages-with-github-packages/configuring-npm-for-use-with-github-packages))
-
-```bash
-npm install --save @jaid/test@^0.2.4
-```
 
 
 
@@ -54,6 +52,9 @@ npm install --save @jaid/test@^0.2.4
 
 ## Development
 
+<details>
+<summary><b>Development hints for maintaining and improving Test</b></summary>
+
 
 
 Setting up:
@@ -71,7 +72,13 @@ Testing in production environment:
 npm run test
 ```
 
+</details>
 
 ## License
 [MIT License](https://raw.githubusercontent.com/jaid/test/master/license.txt)  
 Copyright © 2021, Jaid \<jaid.jsx@gmail.com> (https://github.com/jaid)
+
+<!---
+Readme generated with tldw v7.3.1
+https://github.com/Jaid/tldw
+-->
