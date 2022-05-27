@@ -41,5 +41,6 @@
     "debug",
     "test",
     "testing"
-  ]
+  ],
+  "type": "module"
 }
