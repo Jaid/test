@@ -6,7 +6,6 @@
   "version": "0.2.4",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "devDependencies": {
-    "acorn": "^8.7.1",
     "babel-jest": "^28.1.0",
     "babel-preset-jaid": "^14.0.0",
     "browserslist-config-jaid-universal": "^3.0.0",
