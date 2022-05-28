@@ -1,0 +1,21 @@
+name: Test Jaid/action-jest
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: "contains(github.event.head_commit.message, 'action-publish')"
+    steps:
+      - name: actions/checkout
+        uses: actions/checkout@v2.0.0
+      - name: npm install
+        uses: jaid/action-npm-install@master
+      - name: Jest
+        uses: jaid/action-publish@master
+        with:
+          githubToken: ${{ secrets.packagesToken }}
+          npmPrepareScript: build:prod
+          publishDirectory: dist/package/production
+          npmToken: ${{ secrets.npmToken }}
+          dry: true
