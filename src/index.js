@@ -17,4 +17,4 @@
  * const result = test(number)
  * result === 6
  */
-export default (firstNumber, secondNumber = 1) => firstNumber + secondNumber
+export default (firstNumber, secondNumber = 2) => firstNumber + secondNumber
